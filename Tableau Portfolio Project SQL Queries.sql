@@ -29,7 +29,7 @@ order by 1,2
 
 -- 2. 
 
--- We take these out as they are not inluded in the above queries and want to stay consistent
+-- Taking these out as they are not inluded in the above queries and want to stay consistent
 -- European Union is part of Europe
 
 Select location, SUM(cast(new_deaths as int)) as TotalDeathCount
@@ -70,8 +70,7 @@ order by PercentPopulationInfected desc
 
 
 
--- Queries I originally had, but excluded some because it created too long of video
--- Here only in case you want to check them out
+-- Queries I originally had, but excluded from Tableau project
 
 
 -- 1.
@@ -113,7 +112,7 @@ order by 1,2
 
 -- 3.
 
--- We take these out as they are not inluded in the above queries and want to stay consistent
+-- Taking these out as they are not inluded in the above queries and want to stay consistent
 -- European Union is part of Europe
 
 Select location, SUM(cast(new_deaths as int)) as TotalDeathCount
